@@ -1,0 +1,170 @@
+*{
+  font-family: Montserrat,sans-serif;
+}
+
+.theme--light.v-sheet {
+  background-color: #fff;
+  border-color: #fff;
+  color: rgba(0,0,0,.87);
+}
+
+
+.v-dialog:not(.v-dialog--fullscreen) {
+  max-height: 90%;
+}
+  .v-card>:first-child:not(.v-btn):not(.v-chip) {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.pink.lighten-2 {
+  background-color: #f06292!important;
+  border-color: #f06292!important;
+}
+
+.v-card__title--primary {
+  padding-top: 24px;
+}
+
+.v-card__title {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+
+.v-card__text {
+  padding: 16px;
+  width: 100%;
+}
+
+.headline {
+  font-size: 24px!important;
+  line-height: 32px!important;
+}
+
+.display-1, .headline {
+  font-weight: 400;
+  letter-spacing: normal!important;
+  font-family: Roboto,sans-serif!important;
+}
+
+.pink {
+  background-color: #e91e63!important;
+  border-color: #e91e63!important;
+}
+
+.white--text {
+  color: #fff!important;
+  caret-color: #fff!important;
+}
+
+// .Modal {
+//   position: absolute;
+//   // inset: 40px;
+//   // border: 1px solid rgb(204, 204, 204);
+//   // background: rgb(255, 255, 255);
+//   // overflow: auto;
+//   border-radius: 4px;
+//   outline: none;
+//   padding: 20px;
+//   height: 284px;
+//   width: 500px;
+// }
+
+.ReactModal__Content {
+  overflow: hidden;
+  padding: 20px;
+  width: 50%;
+  height: 52%;  
+  margin-left: 27%;
+  background-color: transparent;
+}
+
+.v-card>:last-child:not(.v-btn):not(.v-chip) {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.v-card__actions {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px;
+}
+
+.theme--light.v-btn {
+  color: rgba(0,0,0,.87);
+}
+
+.v-card__actions .v-btn, .v-card__actions>* {
+  margin: 0;
+}
+
+.pink--text.text--lighten-2 {
+  color: #f06292!important;
+  caret-color: #f06292!important;
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+  -webkit-appearance: button;
+}
+
+.v-btn {
+  padding: 0 16px;
+}
+
+.v-btn {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 2px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 36px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 14px;
+  font-weight: 500;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 6px 8px;
+  min-width: 88px;
+  outline: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: .3s cubic-bezier(.25,.8,.5,1),color 1ms;
+  transition: .3s cubic-bezier(.25,.8,.5,1),color 1ms;
+  position: relative;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+[role=button], [type=button], [type=reset], [type=submit], button {
+  cursor: pointer;
+}
+
+.pink--text {
+  color: #e91e63!important;
+  caret-color: #e91e63!important;
+}
+
+button, input, select, textarea {
+  background-color: transparent;
+  border-style: none;
+  color: inherit;
+}
